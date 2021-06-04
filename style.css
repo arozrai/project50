@@ -1,0 +1,114 @@
+html {
+    padding-right: 5px;
+    border-radius: 20px;
+    background-color: #36F538;
+}
+body{
+    margin: 0px;
+}
+.bodyimg{ 
+    position:relative; 
+} 
+.bodyimg p{ 
+    position: absolute; 
+    top:10%; 
+    left:10%; 
+    color:white; 
+    font-family: Georgia; 
+} 
+.header{ 
+    display:flex; 
+    background-color: black; 
+    color:white; 
+    justify-content: space-between; 
+    padding:10px; 
+}
+h1{
+    text-align: center;
+}
+.menu{ 
+    display: flex; 
+    justify-content: space-between; 
+    background-color: black; 
+    font-size: 20px; 
+    font-family: sans-serif; 
+    font-weight: 400; 
+    color: white; 
+}
+.grid img{
+    border:  10px solid #F9B532;
+    border-radius: 50px;
+    opacity: 1;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+.origami{
+    border-radius: 20px;
+    background-color: #F709F5;
+
+    width: 310px;
+    font-family: fantasy;
+
+    margin: 20px;
+    padding: 20px;
+}
+.origami:hover img{
+    transform:  scale(1.2);
+    opacity: 0.33;
+}
+.origami p{
+    position: relative;
+    top: 0.01%;
+    left: 0.01%;
+    transform: translate(-0.01%,-0.01%);
+    opacity: 0;
+}
+.origami:hover{ 
+    transform: scale(1.1); 
+}
+.menu a:link{
+    color:white; 
+}
+.menu a:visited{ 
+    color:white; 
+}
+.reason img{
+    border:  10px solid #32f2f9;
+    border-radius: 50px;
+}
+.reason{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.why{
+    border-radius: 20px;
+    background-color: #f70909;
+
+    width: 310px;
+    font-family: fantasy;
+
+    margin: 20px;
+    padding: 20px;
+}
+.well img{
+    border:  10px solid #561866;
+    border-radius: 50px;
+}
+.well{
+    margin: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.how{
+    border-radius: 20px;
+    background-color: #9e9119;
+
+    width: 310px;
+    font-family: fantasy;
+
+    margin: 20px;
+    padding: 20px;
+}
